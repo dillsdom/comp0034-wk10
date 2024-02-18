@@ -1,0 +1,30 @@
+# All requirements. You may prefer not to install all of these!
+# For Dash apps
+dash
+dash-bootstrap-components
+pandas
+requests
+# For testing
+pytest
+selenium
+# Dash testing may need to be esacaped: dash\[testing]
+# see https://dash.plotly.com/testing
+dash[testing]
+# For Flask apps
+Flask
+Flask-SQLAlchemy
+Flask-Marshmallow
+Marshmallow-SQLAlchemy
+jwt
+flask-wtf
+wtforms-sqlalchemy
+flask-login
+Flask-Reuploaded
+# Optional for iris app:
+scikit-learn
+# For testing
+pytest
+selenium
+pytest-cov
+# Optional for live_server fixture
+# pytest-flask

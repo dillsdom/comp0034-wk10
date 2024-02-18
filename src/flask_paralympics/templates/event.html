@@ -1,0 +1,33 @@
+<!-- Week 8 starter code version -->
+{% extends 'base.html' %}
+
+{% block title %}{{ event['host'] }} {{ event['year'] }}{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col">Host City</div>
+            <div id="host" class="col">{{ event['host'] }} {{ event['year'] }}</div>
+        </div>
+        <div class="row">
+            <div class="col">Dates</div>
+            <div id="dates" class="col">{{ event['start'] }} to {{ event['end'] }}</div>
+        </div>
+        <div class="row">
+            <div class="col">Events</div>
+            <div id="events" class="col">{{ event['events'] }} in {{ event['sports'] }} sports</div>
+        </div>
+        <div class="row">
+            <div class="col">Countries</div>
+            <div id="countries" class="col">{{ event['countries'] }}</div>
+        </div>
+        <div class="row">
+            <div class="col">Participants</div>
+            <div id="participants" class="col">{{  event['participants']}} ({{ event['participants_f'] }} female and {{ event['participants_m'] }} male)</div>
+        </div>
+        <div class="row">
+            <div class="col">Highlights</div>
+            <div id="highlights" class="col">{{ event['highlights'] }}</div>
+        </div>
+    </div>
+{% endblock %}

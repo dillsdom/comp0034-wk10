@@ -1,0 +1,17 @@
+# For Flask apps
+Flask
+Flask-SQLAlchemy
+Flask-Marshmallow
+Marshmallow-SQLAlchemy
+jwt
+flask-wtf
+wtforms-sqlalchemy
+Flask-Reuploaded
+# Optional for iris app: 
+# scikit-learn
+# For testing
+pytest
+selenium
+pytest-cov
+# Optional for live_server fixture 
+# pytest-flask

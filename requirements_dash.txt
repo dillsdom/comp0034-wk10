@@ -1,0 +1,11 @@
+# For Dash apps
+dash
+dash-bootstrap-components
+pandas
+requests
+# For testing
+pytest
+selenium
+# Dash testing may need to be esacaped: dash\[testing]
+# see https://dash.plotly.com/testing
+dash[testing]
