@@ -19,3 +19,11 @@ Current list of apps in the 'src' directory:
 | paralympics_rest   | `flask --app paralympics_rest run`                                                                                                                         | All core REST API activities from weeks 1-4                                              |
 | flask_iris         | `flask --app "flask_iris:create_app('dev')" --debug run`<br>Note: the URL never shows in the terminal so open a browser and go to <http://127.0.0.1:5000/> | Pages with a form to get a prediction. Scikit-learn code to create a pickled model file. |
 | flask_simple_login | `flask --app paralympics_simple_login run`                                                                                                                 | Illustrates login with Flask-Login. Creates and displays a user profile.                 |
+
+## Set up
+
+- Fork the repository to create a copy in your GitHub account
+- Clone your copy to your IDE
+- Create a venv (or use an existing one)
+- Install requirements. Note that the requirements.txt includes dependencies for all the apps. If you only want to run
+  dash apps then use the 'requirements-dash'; likewise for flask.
