@@ -27,3 +27,15 @@ Current list of apps in the 'src' directory:
 - Create a venv (or use an existing one)
 - Install requirements. Note that the requirements.txt includes dependencies for all the apps. If you only want to run
   dash apps then use the 'requirements-dash'; likewise for flask.
+
+## Other sources
+
+Login for Dash apps:
+
+Note that you don't have the enterprise Dash version so avoid any tutorials that implement dash-enterprise-auth as you
+won't be able to use it.
+
+- [Dash login page](https://www.analyticsvidhya.com/blog/2021/05/create-login-page-in-dash-library/)
+- [Dash basic auth](https://dash.plotly.com/authentication#basic-auth-example)
+- [Dash basic auth implementation video](https://www.youtube.com/watch?v=MxQtgLVEqbQ)
+- You could try Flask-Login, search for tutorials that implement Flask-Login for Plotly Dash
