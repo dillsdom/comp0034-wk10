@@ -4,8 +4,8 @@ from flask import current_app as app, render_template, flash, redirect, url_for,
 from flask_login import login_user, logout_user, login_required, current_user
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 from flask_simple_login import db, login_manager, photos
-from flask_simple_login.models import User, Profile
-from flask_simple_login.forms import LoginForm, ProfileForm, SignupForm
+from models import User, Profile
+from forms import LoginForm, ProfileForm, SignupForm
 
 
 @app.route('/', methods=['GET'])

@@ -4,7 +4,7 @@ from wtforms import StringField, TextAreaField, EmailField, PasswordField, Boole
 from wtforms.validators import DataRequired, ValidationError, EqualTo
 
 from flask_simple_login import db, photos
-from flask_simple_login.models import User, Profile
+from models import User, Profile
 
 
 class SignupForm(FlaskForm):
